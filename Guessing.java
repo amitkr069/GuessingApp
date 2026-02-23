@@ -1,3 +1,10 @@
+/**
+@author amit
+@version 2.0
+
+This is Use Case 2.
+In this the user input feature has been added and the basic play of the game has been developed.
+*/
 import java.util.Random;
 import java.util.Scanner;
 public class Guessing {

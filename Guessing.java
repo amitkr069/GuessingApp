@@ -1,3 +1,11 @@
+/**
+@author amit
+@version 5.0
+
+This is Use Case 5.
+In this case we are storing the results in a text file.
+Used input output streams and used JDBC
+*/
 import java.util.Random;
 import java.util.Scanner;
 public class Guessing {

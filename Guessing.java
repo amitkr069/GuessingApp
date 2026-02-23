@@ -1,13 +1,20 @@
+/**
+@author amit
+@version 6.0
+This is the final version of the Guessing app.
+In this we have added restart and exit app feature
+*/
+
 import java.util.Random;
 import java.util.Scanner;
 public class Guessing {
 	public static void main(String[] args) throws InvalidInputException{
-		Scanner sc = new Scanner(System.in);
+		Scanner sc = new Scanner(System.in); // making scanner object
 		System.out.println("Welcome to guessing app");
 		boolean restart;
 		
 		
-		do{
+		do{ // using do while loop it will as the restart and exit app loop.
 			System.out.print("Enter player Name: ");
 		String player = sc.nextLine();
 		
@@ -30,9 +37,9 @@ public class Guessing {
             try {
                 guess = ValidationService.validateInput(input);
             } catch (InvalidInputException e) {
-                // Do not count invalid input as an attempt; just inform and continue
+                // Do not count invalid input as an attempt..just inform and continue
                 System.out.println(e.getMessage());
-                System.out.println(); // blank line for readability
+                System.out.println(); // blank line
                 continue;
             }
 

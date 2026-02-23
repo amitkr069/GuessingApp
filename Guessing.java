@@ -1,3 +1,12 @@
+/**
+@author amit
+@version 3.0
+
+This is Use Case 3.
+In this the Hint giving feature has been added.
+in each wrong guess the game will provide a hint upto the maximum hints.
+*/
+
 import java.util.Random;
 import java.util.Scanner;
 public class Guessing {

@@ -1,3 +1,12 @@
+/**
+@author amit
+@version 4.0
+
+This is Use Case 4.
+In this case the Exceptions has been handled.
+Created a custom exception to check for invalid inputs.
+*/
+
 import java.util.Random;
 import java.util.Scanner;
 public class Guessing {
